@@ -1,4 +1,12 @@
 function duplicateCount(text) {
+  /**
+   * The function counts the number of duplicate characters in a string.
+   * @param {string} text
+   * return {number}
+   * @example
+   * duplicateCount('abcde') // returns 0
+   * duplicateCount('aabbcde') // returns 2
+   */
   let count = 0;
   let duplicate = [];
   text = text.toLowerCase();
