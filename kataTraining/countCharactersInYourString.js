@@ -6,16 +6,16 @@ function count(string) {
    * @returns an object with the keys being the characters in the string and the values being the number
    * of times that character appears in the string.
    */
-  var result = {};
-  for (var i = 0; i < string.length; i++) {
-    if (result[string[i]] === undefined) {
-      result[string[i]] = 1;
+  let result = {};
+  for (let letter of string) {
+    if (result[letter] === undefined) {
+      result[letter] = 1;
     } else {
-      result[string[i]]++;
+      result[letter]++;
     }
   }
   return result;
 }
 
 console.log(count("aba")); // { a: 2, b: 1 }
-console.log(count("")); // {}
+console.log(count(""));
