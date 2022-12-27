@@ -1,3 +1,7 @@
+/* "A Block is a rectangular solid with a width, length, and height."
+
+The constructor takes an array of three numbers as an argument. The first number is the width, the
+second is the length, and the third is the height */
 class Block {
   constructor(data) {
     this.data = data;
