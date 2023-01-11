@@ -79,9 +79,9 @@ class Vector {
   }
 }
 
-var a = new Vector([1, 2, 3]);
-var b = new Vector([3, 4, 5]);
-var c = new Vector([5, 6, 7, 8]);
+let a = new Vector([1, 2, 3]);
+let b = new Vector([3, 4, 5]);
+let c = new Vector([5, 6, 7, 8]);
 
 console.log(a.add(b)); // should return Vector([4,6,8])
 console.log(a.subtract(b)); // should return Vector([-2,-2,-2])
