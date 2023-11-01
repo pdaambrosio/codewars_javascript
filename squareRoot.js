@@ -4,7 +4,6 @@
  * @param {*} array 
  * @returns An array with the square root of all the numbers if it is possible, if not the number itself.
  */
-
 function squareOrSquareRoot(array) {
     return array.map(function(x) {
         var r = Math.sqrt(x);
