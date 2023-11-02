@@ -1,3 +1,9 @@
+/**
+ * Function hero to check if the player has enough bullets to kill the dragon or not.
+ * @param {*} bullets 
+ * @param {*} dragons 
+ * @returns boolean
+ */
 function hero(bullets, dragons){
     return bullets/2 >= dragons;
 }
