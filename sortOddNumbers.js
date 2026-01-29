@@ -15,5 +15,5 @@ function sortArray(array) {
 }
 
 console.log(sortArray(array1));
-// console.log(sortArray(array2));
-// console.log(sortArray(array3));
+console.log(sortArray(array2));
+console.log(sortArray(array3));
